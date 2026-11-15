@@ -1,0 +1,10 @@
+{
+	"vmfov_title": "Viewmodel FOV",
+	"vmfov_desc": "Set the FOV of your gun and arms separately from the world.",
+	"vmfov_enabled": "Enabled",
+	"vmfov_enabled_desc": "Turn the separate gun FOV on or off.",
+	"vmfov_gun_fov": "Gun FOV",
+	"vmfov_gun_fov_desc": "The FOV your gun and arms are drawn at, separate from the world. Lower makes them larger and closer. Values above your world FOV have no effect yet.",
+	"vmfov_apply_in_ads": "Apply While Aiming",
+	"vmfov_apply_in_ads_desc": "Keep the gun FOV while aiming down sights. Leave this off to keep the normal sight picture."
+}

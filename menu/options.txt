@@ -1,0 +1,40 @@
+{
+	"menu_id" : "vmfov_options_menu",
+	"parent_menu_id" : "blt_options",
+	"title" : "vmfov_title",
+	"description" : "vmfov_desc",
+	"back_callback" : "vmfov_closed",
+	"items" : [
+		{
+			"type" : "toggle",
+			"id" : "enabled",
+			"title" : "vmfov_enabled",
+			"description" : "vmfov_enabled_desc",
+			"callback" : "vmfov_toggle",
+			"value" : "enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "slider",
+			"id" : "gun_fov",
+			"title" : "vmfov_gun_fov",
+			"description" : "vmfov_gun_fov_desc",
+			"callback" : "vmfov_slider",
+			"value" : "gun_fov",
+			"default_value" : 75,
+			"min" : 40,
+			"max" : 120,
+			"step" : 1,
+			"show_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "apply_in_ads",
+			"title" : "vmfov_apply_in_ads",
+			"description" : "vmfov_apply_in_ads_desc",
+			"callback" : "vmfov_toggle",
+			"value" : "apply_in_ads",
+			"default_value" : false
+		}
+	]
+}

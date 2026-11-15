@@ -1,0 +1,24 @@
+{
+	"name" : "Viewmodel FOV",
+	"description" : "Sets the FOV of your gun and arms separately from the world FOV. Settings are in Mod Options.",
+	"author" : "shubho",
+	"version" : "1.0",
+	"blt_version" : 2,
+	"color" : "0.3 0.7 1",
+	"native_modules" : [
+		{
+			"platform" : "win64",
+			"filename" : "native/vmfov_native.dll"
+		}
+	],
+	"hooks" : [
+		{
+			"hook_id" : "lib/managers/menumanager",
+			"script_path" : "lua/menu.lua"
+		},
+		{
+			"hook_id" : "lib/units/cameras/fpcameraplayerbase",
+			"script_path" : "lua/fpcamera.lua"
+		}
+	]
+}
